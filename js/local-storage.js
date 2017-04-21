@@ -7,5 +7,14 @@ if (window.localstorage) {
   txtUsername.value = localStorage.getItem('username');
   txtAnswer.value = localStorage.getItem('answer');
 
+  // WHEN A NEW VALUE IS ENTERED INTO THE FORM FIELD IT IS SAVED IN LOCAL STORAGE
+  txtUsername.addEventListener('input', function() {
+    localStorage.setItem('username', txtUsername.value);
+  }, false);
+
+  txtAnswer.addEventListener('input', function() {
+    localStorage.setItem('answer', txtAnswer.value);
+  }, false);
+
 
 }
