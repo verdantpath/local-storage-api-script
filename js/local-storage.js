@@ -23,7 +23,7 @@ if (window.localstorage) {
 // THIS SCRIPT CAN BE USED WITH THE FOLLOWING BASIC HTML
 // <html>
 //   <head>
-//     <title>JavaScript &amp; jQuery - Chapter 9: APIs - Local Storage</title>
+//     <title>Local Storage API Script</title>
 //     <link rel="stylesheet" href="css/c09.css" />
 //   </head>
 //   <body>
