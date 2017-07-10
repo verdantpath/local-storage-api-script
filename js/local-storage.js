@@ -4,7 +4,7 @@ if (window.localstorage) {
   var txtUsername = document.getElementById('username');
   var txtAnswer = document.getElementById('answer');
 
-  // CHECK TO SEE IF VALUES ARE IN LOCAL STORAGE AND PUTS THEM IN VARIABLES, WRITTEN INTO THE CORRESPONDING INPUT VALUE PROPERTY
+  // CHECK TO SEE IF VALUES ARE IN LOCAL STORAGE AND PUTS THEM IN VARIABLES, WRITTEN INTO THE CORRESPONDING INPUT'S VALUE PROPERTY
   txtUsername.value = localStorage.getItem('username');
   txtAnswer.value = localStorage.getItem('answer');
 
