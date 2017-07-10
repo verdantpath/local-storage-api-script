@@ -1,3 +1,4 @@
+// An if statement checks if the browser supports the storage API
 if (window.localstorage) {
   // SET UP VARIABLES TO CAPTURE FORM INPUTS
   var txtUsername = document.getElementById('username');
